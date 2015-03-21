@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical"
+             android:background="@android:color/black">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/city_one_temp"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-thin"
+            android:textSize="104sp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Display4"/>
+
+        <TextView
+            android:id="@+id/city_one_condition"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-light"
+            android:textSize="24sp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Display4"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_weight="0">
+
+        <TextView
+            android:id="@+id/city_one_name"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Widget.ActionBar.Title"/>
+
+        <TextView
+            android:id="@+id/city_one_region"
+            android:textColor="#dddddd"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle"/>
+
+    </LinearLayout>
+
+</LinearLayout>
