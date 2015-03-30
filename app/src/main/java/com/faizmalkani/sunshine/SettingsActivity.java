@@ -35,7 +35,7 @@ public class SettingsActivity extends ActionBarActivity
         mRadioUnit = (RadioGroup) findViewById(R.id.radiogroup_unit);
         mRadioCelsius = (RadioButton) findViewById(R.id.radio_celsius);
         mRadioFahrenheit = (RadioButton) findViewById(R.id.radio_farenheit);
-        if(mSharedPreferences.getString("unit", null).equalsIgnoreCase("fahrenheit"))
+        if(mSharedPreferences.getString("unit", "celsius").equalsIgnoreCase("fahrenheit"))
         {
             mRadioFahrenheit.setChecked(true);
             mRadioCelsius.setChecked(false);
